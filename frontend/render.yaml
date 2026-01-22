@@ -1,7 +1,6 @@
 services:
-  - type: web
+  - type: static
     name: react-spa
-    env: static
     buildCommand: npm run build
     staticPublishPath: dist
     routes:
